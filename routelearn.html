@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RouteLearn - Adaptive LLM routing and optimization project by Deepini.">
+
+    <title>RouteLearn | Deepini</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-details.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="detail-page">
+
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">deepini<span>.</span></a>
+            <a href="index.html#projects" class="project-link">← Back to Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="detail-hero">
+            <span class="section-label">FEATURED PROJECT / 02</span>
+
+            <p class="detail-category">LLM ENGINEERING / MACHINE LEARNING</p>
+
+            <h1>RouteLearn</h1>
+
+            <h2>Adaptive LLM Routing & Optimization System</h2>
+
+            <p>
+                An intelligent model-routing platform that dynamically
+                selects LLMs based on query characteristics, response
+                quality and computational cost.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>LLMs</span>
+                <span>Machine Learning</span>
+                <span>Streamlit</span>
+            </div>
+
+            <a href="https://github.com/deepini-bot/Route_learn"
+               class="primary-button"
+               target="_blank"
+               rel="noopener noreferrer">
+                View GitHub Repository ↗
+            </a>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">01 / OVERVIEW</span>
+            <h2>Understanding the problem.</h2>
+
+            <p>
+                Applications powered by large language models often use
+                a single model for every request. However, not every
+                prompt requires the same level of reasoning or
+                computational capability.
+            </p>
+
+            <p>
+                RouteLearn explores adaptive model selection by analysing
+                incoming prompts and routing them across different model
+                tiers. The objective is to balance response quality and
+                inference cost instead of always choosing the largest model.
+            </p>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">02 / KEY CAPABILITIES</span>
+            <h2>What the system does.</h2>
+
+            <div class="detail-grid">
+                <article class="detail-card">
+                    <h3>Prompt Analysis</h3>
+                    <p>
+                        Extracts prompt characteristics to estimate
+                        the complexity and requirements of incoming queries.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Adaptive Model Routing</h3>
+                    <p>
+                        Selects from three model tiers based on the
+                        estimated requirements of each request.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Cost-Quality Optimization</h3>
+                    <p>
+                        Evaluates the trade-off between response quality
+                        and model usage cost.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Feedback-Driven Learning</h3>
+                    <p>
+                        Incorporates feedback to refine future routing
+                        decisions and selection strategies.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Performance Evaluation</h3>
+                    <p>
+                        Evaluates routing strategies using simulated
+                        requests and cumulative routing regret.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>API & Analytics Layer</h3>
+                    <p>
+                        Exposes routing, feedback, configuration and
+                        performance analysis through backend APIs.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">03 / ARCHITECTURE</span>
+            <h2>How it works.</h2>
+
+            <p>
+                RouteLearn uses an adaptive decision pipeline to analyse
+                prompts, select a model tier and evaluate routing outcomes.
+            </p>
+
+            <div class="architecture">
+                <div class="architecture-node">Incoming User Prompt</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Prompt Feature Extraction</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Adaptive Routing Engine</div>
+                <div class="architecture-arrow">↓</div>
+
+                <div class="architecture-split">
+                    <div class="architecture-node">Tier 1<br><small>Small Model</small></div>
+                    <div class="architecture-node">Tier 2<br><small>Medium Model</small></div>
+                    <div class="architecture-node">Tier 3<br><small>Large Model</small></div>
+                </div>
+
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Response Evaluation & Feedback</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Routing Strategy Refinement</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Performance Analytics</div>
+            </div>
+
+            
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">04 / TECHNOLOGY STACK</span>
+            <h2>Tools & technologies.</h2>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>LLMs</span>
+                <span>Machine Learning</span>
+                <span>Streamlit</span>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">05 / RESULTS</span>
+            <h2>Project outcomes.</h2>
+
+            <div class="detail-result">
+                <strong>4,000</strong>
+                <span>Simulated requests evaluated</span>
+            </div>
+
+            <div class="detail-result">
+                <strong>52%</strong>
+                <span>Reduction in cumulative routing regret</span>
+            </div>
+        </section>
+
+        <section class="detail-footer">
+            <h2>Explore the implementation.</h2>
+            <p>Interested in the routing strategy and evaluation? Explore the source code.</p>
+
+            <a href="https://github.com/deepini-bot/Route_learn"
+               class="primary-button"
+               target="_blank"
+               rel="noopener noreferrer">
+                View GitHub Repository ↗
+            </a>
+
+            <p><a href="index.html#projects">← Back to all projects</a></p>
+        </section>
+    </main>
+
+</body>
+</html>

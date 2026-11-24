@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LogMind - AI-powered log intelligence and incident analysis project by Deepini.">
+
+    <title>LogMind | Deepini</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-details.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="detail-page">
+
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">deepini<span>.</span></a>
+            <a href="index.html#projects" class="project-link">← Back to Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="detail-hero">
+            <span class="section-label">FEATURED PROJECT / 01</span>
+
+            <p class="detail-category">AI / MACHINE LEARNING / BACKEND</p>
+
+            <h1>LogMind</h1>
+
+            <h2>AI-Powered Log Intelligence & Incident Analysis</h2>
+
+            <p>
+                Transforming raw application logs into actionable incident
+                insights through machine learning, event correlation and
+                retrieval-augmented generation.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Isolation Forest</span>
+                <span>RAG</span>
+                <span>Streamlit</span>
+                <span>Docker</span>
+            </div>
+
+            <a href="https://github.com/deepini-bot/Log_analyzer"
+               class="primary-button"
+               target="_blank"
+               rel="noopener noreferrer">
+                View GitHub Repository ↗
+            </a>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">01 / OVERVIEW</span>
+            <h2>Understanding the problem.</h2>
+
+            <p>
+                Modern applications generate large volumes of logs across
+                multiple services. Investigating incidents manually can be
+                time-consuming, particularly when related failures are
+                distributed across different components.
+            </p>
+
+            <p>
+                LogMind is designed to automate parts of this investigation
+                process by detecting unusual log patterns, correlating
+                related events and retrieving relevant technical context
+                to support root-cause analysis.
+            </p>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">02 / KEY CAPABILITIES</span>
+            <h2>What the system does.</h2>
+
+            <div class="detail-grid">
+                <article class="detail-card">
+                    <h3>Log Processing</h3>
+                    <p>
+                        Processes and structures application log events
+                        to make them suitable for downstream analysis.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Anomaly Detection</h3>
+                    <p>
+                        Uses Isolation Forest to identify unusual patterns
+                        and deviations in application log behaviour.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Event Correlation</h3>
+                    <p>
+                        Connects related events across services to help
+                        reconstruct incident sequences.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>RAG-Based Context Retrieval</h3>
+                    <p>
+                        Retrieves relevant runbooks and technical
+                        documentation to provide context during
+                        incident investigation.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Root-Cause Insights</h3>
+                    <p>
+                        Combines anomaly signals and retrieved context
+                        to generate evidence-backed root-cause hypotheses.
+                    </p>
+                </article>
+
+                <article class="detail-card">
+                    <h3>Interactive Dashboard</h3>
+                    <p>
+                        Presents analysis results and incident insights
+                        through a Streamlit interface.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">03 / ARCHITECTURE</span>
+            <h2>How it works.</h2>
+
+            <p>
+                The application follows a processing pipeline that
+                transforms raw logs into structured incident intelligence.
+            </p>
+
+            <div class="architecture">
+                <div class="architecture-node">Application Logs</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Log Processing & Structuring</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Event Correlation</div>
+                <div class="architecture-arrow">↓</div>
+
+                <div class="architecture-split">
+                    <div class="architecture-node">Isolation Forest<br><small>Anomaly Detection</small></div>
+                    <div class="architecture-node">RAG Pipeline<br><small>Context Retrieval</small></div>
+                </div>
+
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">Incident Analysis & Root-Cause Hypotheses</div>
+                <div class="architecture-arrow">↓</div>
+                <div class="architecture-node">FastAPI + Streamlit Dashboard</div>
+            </div>
+
+            <p class="detail-note">
+                Architecture overview — adapt the stages to match the
+                actual implementation and data flow in your repository.
+            </p>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">04 / TECHNOLOGY STACK</span>
+            <h2>Tools & technologies.</h2>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Scikit-learn</span>
+                <span>Isolation Forest</span>
+                <span>RAG</span>
+                <span>Streamlit</span>
+                <span>Docker</span>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <span class="section-label">05 / RESULTS</span>
+            <h2>Project outcomes.</h2>
+
+            <div class="detail-result">
+                <strong>3,000+</strong>
+                <span>Log events analysed</span>
+            </div>
+
+            <div class="detail-result">
+                <strong>30%</strong>
+                <span>Reduction in manual investigation effort</span>
+            </div>
+        </section>
+
+        <section class="detail-footer">
+            <h2>Explore the implementation.</h2>
+            <p>Interested in the technical implementation? Explore the source code.</p>
+
+            <a href="https://github.com/deepini-bot/Log_analyzer"
+               class="primary-button"
+               target="_blank"
+               rel="noopener noreferrer">
+                View GitHub Repository ↗
+            </a>
+
+            <p><a href="index.html#projects">← Back to all projects</a></p>
+        </section>
+    </main>
+
+</body>
+</html>
